@@ -1,4 +1,5 @@
 import asyncpg
+import tortoise
 from loguru import logger
 from tortoise import Tortoise
 
@@ -23,7 +24,8 @@ async def init_db(db: Database = config.db):
     try:
         await Tortoise.init(**data)
         await Tortoise.generate_schemas()
-    except asyncpg.exceptions.ConnectionDoesNotExistError as e:
+    except (asyncpg.exceptions.ConnectionDoesNotExistError,
+            tortoise.exceptions.DBConnectionError) as e:
         logger.warning(e)
         logger.info("Creating a new database ...")
         await Tortoise.init(**data, _create_db=True)

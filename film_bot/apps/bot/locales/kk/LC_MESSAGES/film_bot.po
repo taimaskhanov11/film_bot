@@ -1,0 +1,69 @@
+# Kazakh translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-05-31 09:40+0300\n"
+"PO-Revision-Date: 2022-05-30 16:32+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: kk\n"
+"Language-Team: kk <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: film_bot/apps/bot/handlers/common/common_menu.py:30
+msgid "✅ Подписки найдены, введите /start чтобы продолжить"
+msgstr "✅ Жазылымдар табылды, жалғастыру үшін /start деп теріңіз"
+
+#: film_bot/apps/bot/handlers/common/common_menu.py:32
+msgid "❌ Ты подписался не на все каналы"
+msgstr "❌ Сіз барлық арналарға жазылмадыңыз"
+
+#: film_bot/apps/bot/handlers/common/common_menu.py:48
+#: film_bot/apps/bot/handlers/common/common_menu.py:59
+msgid "📍 Для того, чтобы пользоваться ботом, нужно подписаться на каналы:"
+msgstr "📍 Ботты пайдалану үшін арналарға жазылу керек:"
+
+#: film_bot/apps/bot/handlers/common/common_menu.py:52
+msgid "🎥 Введите номер фильма, который вы хотите посмотреть:"
+msgstr "🎥 Көргіңіз келетін фильм нөмірін енгізіңіз:"
+
+#: film_bot/apps/bot/handlers/common/common_menu.py:71
+msgid "❌ Введён неправильный номер фильма, повторите попытку"
+msgstr "❌ Қате фильм нөмірі енгізілді"
+
+#: film_bot/apps/bot/handlers/common/common_menu.py:91
+msgid "✅ Язык успешно выбран, введите /start чтобы продолжить"
+msgstr "✅ Тіл таңдалған, теріңіз /start жалғастыру үшін"
+
+#: film_bot/apps/bot/markups/common/common_markups.py:9
+msgid "🇷🇺🇰🇿 Сменить язык"
+msgstr "🇷🇺🇰🇿 Тілді өзгерту"
+
+#: film_bot/apps/bot/markups/common/common_markups.py:22
+msgid "✅ Я подписался"
+msgstr "✅ Мен жазылдым"
+
+#: film_bot/apps/bot/markups/common/common_markups.py:39
+msgid "Меню"
+msgstr ""
+
+#~ msgid "Админ панель"
+#~ msgstr ""
+
+#~ msgid "✅ Язык успешно выбран"
+#~ msgstr "✅ Тіл сәтті таңдалды"
+
+#~ msgid "👤 Мой профиль"
+#~ msgstr ""
+
+#~ msgid "✅ Язык успешно выбран, введите старт чтобы продожить"
+#~ msgstr ""
+

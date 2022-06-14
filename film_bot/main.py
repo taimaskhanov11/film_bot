@@ -30,7 +30,7 @@ async def start():
         level="TRACE",
         # old_level=logging.DEBUG,
         old_level=logging.INFO,
-        steaming=True,
+        steaming=False,
         write=True,
     )
     # Инициализация бд
